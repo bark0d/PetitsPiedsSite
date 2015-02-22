@@ -1,0 +1,15 @@
+#Zone_Gauche{
+margin-top: 4%;   
+}
+
+#Zone_Centrale{
+margin-top: 4%;
+    border-style: solid;
+border: thin;
+border-bottom-color: grey;
+background-color: rgba(255, 255, 255, 0.8);    
+}
+
+#Zone_Droite{
+margin-top: 4%;      
+}

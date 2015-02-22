@@ -1,0 +1,31 @@
+/*Barre de Navigation zone centrale*/
+
+#NavBar {
+    float: left;
+    margin-top: 180px;
+    margin-left: auto;
+    display: inline;
+    font-size: 20px;
+}
+
+#NavBar li {
+    float: left;
+    margin-top: 180px;
+    margin-left: auto;
+    display: inline;
+    font-size: 20px;
+}
+
+#NavBar li a {
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #4FC1E9;
+    text-decoration: none;
+    width: 100%;
+}
+
+#NavBar li a:hover {
+    color: white;
+    background-color: #3BAFDA;
+}
