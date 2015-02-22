@@ -1,0 +1,243 @@
+/*Sommaire:
+1) Polices Header Body et Footer
+2) Zones
+3) Couleurs et Images
+4) Titre
+5) Navbar
+*/
+
+/***********************************************************************************/
+/**************************{Polices Header Body et Footer}**************************/
+/***********************************************************************************/
+
+header {
+    padding: 15px;
+    text-align: left;
+    background-color: #EC87C0;
+    color: #FFF
+}
+
+body {
+    margin: 0px;
+    background-image: url("images/fond.jpg")!important;
+    background-size: 100% 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color: #EC87C0;
+    width: 100%;
+    color: #FFF;
+}
+
+#HeaderLeft {
+
+    display: inline;
+    font-size: 20px;
+}
+
+#HeaderLeft li {
+    display: inline;
+    font-size: 100%
+}
+
+#HeaderLeft li a {
+    color: white;
+    background-color: #EC87C0;
+    text-decoration: none;
+}
+
+#HeaderLeft li a:hover {
+    color: white;
+    background-color: #D770AD;
+}
+
+header, #NavBar, #Social_Description, #Social, #Calendrier_Description, #Calendrier, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+#LogoPetits, #LogoPieds {
+    font-family: 'Miniver', sans-serif;
+}
+
+/************************************************************************/
+/**************************{Couleurs et Images}**************************/
+/************************************************************************/
+
+/*Calendrier*/
+
+#Calendrier_Description {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #EC87C0;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+
+#Calendrier {
+    background-color: #4FC1E9;
+    height: 250px;
+    width: 250px;
+}
+
+/*Social zone*/
+
+#Social_Description {
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #EC87C0;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+
+#Social {
+
+    background-color: #4FC1E9;
+    height: 250px;
+    width: 250px;
+    text-decoration: none;
+}
+
+#Social li {
+    margin-left: auto;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Social li a {
+    color: white;
+    font-size: 20px;
+    background-color: #4FC1E9;
+    text-decoration: none;
+}
+
+#Social li a:hover {
+    color: white;
+    background-color: #3BAFDA;
+    text-decoration: none;
+}
+
+/************************************************************/
+/**************************{Titre}***************************/
+/************************************************************/
+
+/*Commun aux 2 blocs du titre*/
+
+#LogoPetits, #LogoPieds {
+    display: inline;
+    /*font-family: 'KGMK', Georgia, serif;*/
+    
+    font-family: 'Miniver', Georgia, serif;
+    font-size: 36px;
+    border-radius: 30px;
+    width: 120px;
+    text-align: center;
+}
+
+/*Bloc titre Petits*/
+
+#LogoPetits {
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;    
+    padding: 20px;
+    color: black;
+    background-color: #EC87C0;
+    text-decoration: none;
+}
+
+#LogoPetits:hover {
+    color: white;
+    background-color: #D770AD;
+    text-decoration: none;
+}
+/*blocs titre Pieds*/
+
+#LogoPieds {
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: #4FC1E9;
+    text-decoration: none;
+}
+
+#LogoPieds:hover {
+    color: white;
+    background-color: #3BAFDA;
+    text-decoration: none;
+}
+/************************************************************/
+/**************************{Navbar}**************************/
+/************************************************************/
+
+#NavBar {
+    float: left;
+    margin-top: 30px;
+
+    display: inline;
+    font-size: 20px;
+}
+
+#NavBar li {
+    float: left;
+    margin-top: 18px;
+    margin-left: 5px;
+    display: inline;
+    font-size: 25px;
+}
+
+#NavBar li a {
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #4FC1E9;
+    text-decoration: none;
+    width: 100%;
+}
+
+#NavBar li a:hover {
+    color: white;
+    background-color: #3BAFDA;
+}
+
+/************************************************************/
+/**************************{iframe}**************************/
+/************************************************************/
+
+iframe{
+    margin-top: 20px;
+    width: 1100px;
+    height: 621px;
+    
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
+
+/***********************************************************************/
+/**************************{iframe Calendrier}**************************/
+/***********************************************************************/
+
+#CalendrierFrame{
+    margin-top: 0px;
+    width: 250px;
+    height: 250px; 
+}

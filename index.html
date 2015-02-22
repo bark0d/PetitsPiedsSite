@@ -1,100 +1,111 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
 
 <head>
     <title>Petits Pieds: Organisation de reunions conviviales</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css.css" />
-    <link rel="stylesheet" href="css/GraphicNColors.css" />
-    <link rel="stylesheet" href="css/Zones.css" />
-    <link rel="stylesheet" href="css/NavBar.css" />
-    <link rel="stylesheet" href="css/Titre.css" />
-    <link rel="stylesheet" href="css/Polices.css" />
-    <link rel="stylesheet" href="css/HeaderBodyFooter.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Miniver' rel='stylesheet' type='text/css'>
 </head>
 
+
 <body>
-    <div class="container">
+
+    <header>
         <div class="row">
-
-            <header>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div id="HeaderLeft">
-                            <li><a href="pages/connexion.html">Connexion</a>
-                            </li>
-                            <li><a href="pages/contact.html">Contact</a>
-                            </li>
-                        </div>
-
-                        <div id="HeaderLeft">Rechercher</div>
-                    </div>
+            <div class="col-md-9">
+                <div id="HeaderLeft">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Connexion</a>
+                        </li>
+                        <li><a href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+            <div id="HeaderRight"></div>
+            <div class="col-md-3">
+                <form class="navbar-form navbar-right inline-form">
 
-            </header>
+                    <div class="form-group">
 
+                        <input type="search" class="input-sm form-control" placeholder="Recherche">
 
+                        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
 
-            <div class="col-md-10">
-                <div class="row">
-                        <!--Logo-->
-                        <div class="col-md-2">
-                            <div class="row">
-                                <div id="LogoPetits">Petits</div>
+                    </div>
 
-                                <div id="LogoPieds">Pieds</div>
+                </form>
+
+            </div>
+        </div>
+    </header>
+    <!--Logo-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div id="LogoPetits">Petits</div>
+                        <div id="LogoPieds">Pieds</div>
+                    </div>
+                    <!--Navbar-->
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div id="NavBar">
+                                <li><a href="pages/actus.html">Actualités</a>
+                                </li>
+                                <li><a href="pages/ou.html">Ou ?</a>
+                                </li>
+                                <li><a href="pages/quand.html">Quand ?</a>
+                                </li>
+                                <li><a href="pages/organiser.html">J'organise !</a>
+                                </li>
                             </div>
                         </div>
-                        <!--Navbar-->
-                        <div class="col-md-4 col-md-offset-2">
-                        <div class="row">
-                        <div id="NavBar">
-                            <li><a href="pages/actus.html">Actualités</a>
-                            </li>
-                            <li><a href="pages/ou.html">Ou ?</a>
-                            </li>
-                            <li><a href="pages/quand.html">Quand ?</a>
-                            </li>
-                            <li><a href="pages/organiser.html">J'organise !</a>
-                            </li>
-                        </div>
-                        </div>
-                        </div>
+                        <div class="col-md-4"></div>
                         <!--IFRAME-->
-                        <iframe>iFrame</iframe>
-
-                        <div id="Calendrier_Description">Quel jour sommes-nous ?</div>
-
-                        <div id="Calendrier">test</div>
-
-                        <div id="Social_Description">Nous Suivre</div>
-
-                        <div id="Social">
-                            <li><a href="pages/actus.html">Sur Facebook</a>
-                            </li>
-                            <li><a href="pages/ou.html">Sur Twitter</a>
-                            </li>
-                            <li><a href="pages/quand.html">Sur Google +</a>
-                            </li>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-7">
+                                    <iframe>iFrame</iframe>
+                                </div>
+                                <!--Social et Calendrier-->
+                                <div class="col-md-3">
+                                    <div id="Calendrier_Description">Quel jour sommes-nous ?</div>
+                                    <div id="Calendrier"><iframe id="CalendrierFrame" src=./pages/calendar/calendar.html></iframe></div>
+                                    <div id="Social_Description">Nous Suivre</div>
+                                    <div id="Social">
+                                        <li><a href="pages/actus.html">Sur Facebook</a>
+                                        </li>
+                                        <li><a href="pages/ou.html">Sur Twitter</a>
+                                        </li>
+                                        <li><a href="pages/quand.html">Sur Google +</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
 </body>
+
 <footer>
-    <div class="col-md-12">
-        <div class="row">
-            <p>Copyright © 2015 Petits Pieds - JMVM SARL - <a href="./pages/admin_panel/admin.html">Admin Panel</a>
-            </p>
+    <div class="row">
+        <div class="col-md-11">Copyright © 2015 Petits Pieds - JMVM SARL</div>
+        <div class="col-md-1">
+            <a href="./pages/admin_panel/admin.html">Admin Panel</a>
         </div>
     </div>
 </footer>
